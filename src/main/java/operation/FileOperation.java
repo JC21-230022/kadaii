@@ -28,7 +28,7 @@ public class FileOperation {
 		return servlet.getServletContext().getRealPath(IMAGEPATH);
 	}
 	
-	public void seveFile(Part part) {
+	public void saveFile(Part part) {
 		
 		String fileName = part.getSubmittedFileName();
 		
